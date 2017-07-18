@@ -23,4 +23,14 @@ git branch
 git merge dev
 ##### 删除分支 #####
 git branch -d dev
+## 将本地项目推送到git仓库上 ##
+##### 初始化本地仓库 #####
+git init
+##### 把文件添加到暂存区 #####
+git add .
+##### 提交更改,把暂存区的所有内容提交到当前分支 #####
+git commit -m 'First commit'
+##### 将本地库的内容推送到远程库 #####
+git remote add origin git@github.com:ligui989/gitskills.git --第一次推送时,给远程库取一个别名,后面推送就使用这个名字.   
+git push -u origin master
 
