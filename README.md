@@ -31,6 +31,11 @@ git add .
 ##### 提交更改,把暂存区的所有内容提交到当前分支 #####
 git commit -m 'First commit'
 ##### 将本地库的内容推送到远程库 #####
-git remote add origin git@github.com:ligui989/gitskills.git --第一次推送时,给远程库取一个别名,后面推送就使用这个名字.   
+git remote add origin git@github.com:ligui989/gitskills.git --第一次推送时,给远程库取一个别名。后面推送就使用这个名字，不用再写这句话了
 git push -u origin master
+##### 获取最新更新 #####
+git pull
+
+## git教程 ##
+##### http://www.yiibai.com/git/ #####
 
